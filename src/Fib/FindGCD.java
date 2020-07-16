@@ -16,6 +16,7 @@ public class FindGCD {
 		if (a == 0)
 			return b;
 		if (b == 0)
+			if (b == 0)
 			return a;
 		return getGcd(b, a % b);
 

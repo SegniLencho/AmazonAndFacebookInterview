@@ -7,6 +7,8 @@ public class Fib {
 	static HashMap<Integer, Integer> maps = new HashMap<Integer, Integer>();
 
 	public static int fibonacci(int n) {
+		String a;
+		
 		if (n <= 0) {
 			return 0;
 		} else if (n == 1) {
