@@ -37,6 +37,6 @@ public class UniqueString {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("Is this String All unique " + checkIfAllUniqueNoDataStructure("abcdfc"));
+		System.out.println("Is this String All unique " + isUniqueString("abcdfc"));
 	}
 }

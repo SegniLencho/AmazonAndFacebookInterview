@@ -1,12 +1,16 @@
 package Fib;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 public class FirstNonDuplicatedChar {
 
 	static HashMap<Integer, Integer> maps = new HashMap<Integer, Integer>();
 
+
 	public static char getNonDuplicateChar(String n) {
+	
 		char answer = n.charAt(0);
 		if (n.length() == 1)
 			return n.charAt(0);

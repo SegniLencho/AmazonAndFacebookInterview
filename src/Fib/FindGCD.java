@@ -1,6 +1,5 @@
 package Fib;
 
-import java.util.*;
 
 public class FindGCD {
 
